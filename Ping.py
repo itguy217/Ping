@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-This program is desinged to ping a ip address of your choseing
-This  pragram makes use of a timer to reset the label.
+This program is desinged to ping an ip address of your choseing.
+The pragram makes use of a timer to reset the label.
 This is the first ideration of this program that I made so please let me know 
 if there is anything I should improve.
 @author: Chris Thummel
@@ -33,7 +33,7 @@ def ping ():
         timer = threading.Timer(5.0, Restart)
         timer.start()
         
-label_result = Label(root,  text ='Pick an IP you would like to ping', bg = 'white' )
+label_result = Label(root,  text ='Pick an IP you would like to ping.', bg = 'white' )
 label_result.pack()
 e = Entry(root, width=20, borderwidth=5)
 e.pack()
@@ -41,6 +41,6 @@ button_set = Button(root, text = 'Ping', bg = 'blue', fg = 'yellow', activebackg
 
 # Changes label when the timer reaches 0
 def Restart():
-    label_result.config(text=' Pick an IP you would like to ping')
+    label_result.config(text=' Pick an IP you would like to ping.')
   
 root.mainloop()
