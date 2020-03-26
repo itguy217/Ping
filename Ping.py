@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-This program is desinged to ping an ip address of your choseing.
+This program is desinged to ping an ip address of your choosing.
 The pragram makes use of a timer to reset the label.
-This is the first ideration of this program that I made so please let me know 
+This is the first iteration of this program that I made so please let me know 
 if there is anything I should improve.
 @author: Chris Thummel
 """
